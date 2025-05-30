@@ -27,8 +27,8 @@ public class C_controller {
         return service.Delete_value(id);
     }
 
-    @PostMapping("/test1")
-    public String Test1(@RequestBody Address address) {
+    @GetMapping ("/test1")
+    public String Test1() {
         return "testing 1";
     }
 
