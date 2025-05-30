@@ -17,7 +17,7 @@ public class C_controller {
         return service.get_Value(id);
     }
 
-    @PostMapping("/PostValue")
+    @PostMapping("/PostVal")
     public Address PostValue(@RequestBody Address address) {
         return service.set_value(address);
     }
