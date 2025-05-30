@@ -29,7 +29,7 @@ public class C_controller {
 
     @GetMapping ("/test1")
     public String Test1() {
-        return "testing 1";
+        return "testing 1 ";
     }
 
 }
